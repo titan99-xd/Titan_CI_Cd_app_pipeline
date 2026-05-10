@@ -1,0 +1,19 @@
+{
+  "name": "my-app-pipeline",
+  "version": "1.0.0",
+  "description": "Hello World CI/CD app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest",
+    "build": "echo 'Build step'",
+    "deploy": "echo 'Deploy step'"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.3"
+  }
+}
